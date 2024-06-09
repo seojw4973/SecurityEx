@@ -12,7 +12,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 //@EntityScan("com.example.springsecurityex.model")
 // @EnableWebSecurity      // spring boot 없이 spring 개발시 언급해주어야 시큐리티의 모든 기능이 활성화됨
 @SpringBootApplication
-@EnableWebSecurity(debug=true)
 public class SpringsecurityExApplication {
 
     public static void main(String[] args) {
